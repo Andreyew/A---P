@@ -13,24 +13,24 @@ int main(){
     cout << namesnumber << "\n";
 
     
-    // for (int i=0; i<3; i++){
-    //     cout<<"Type " << i+1 <<" name ";
-    //     cin>>names[i];
+    for (int i=0; i<3; i++){
+        cout<<"Type " << i+1 <<" name ";
+        cin>>names[i];
 
-    //     cout<<sizeof(names[i]) << endl;
-    // }
-    // cout<<"Names you typed ";
+        cout<<sizeof(names[i]) << endl;
+    }
+    cout<<"Names you typed ";
 
-    // for (int i=0; i<3; i++){
-    //     cout<<names[i];
-    //     if (i==3-1){
-    //         cout<<"."<<endl;
-    //     }   
-    //     else {
-    //         cout<<", ";
-    //     }
+    for (int i=0; i<3; i++){
+        cout<<names[i];
+        if (i==3-1){
+            cout<<"."<<endl;
+        }   
+        else {
+            cout<<", ";
+        }
 
-    // }
+    }
 
 
 }
