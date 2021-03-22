@@ -1,4 +1,6 @@
 // prosi o width i height
+// podpowiedz
+// i%2==0 oraz i%2==1
 
 //  #_#_#_#_#
 //  #_#_#_#_#
