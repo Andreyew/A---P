@@ -33,10 +33,10 @@ int main(){
     cout<<"Proszę podać płec (f/m): ";
     cin>>plec;
     
-    if (plec=="m", wiek<18){                                    //nie wiem jak zrobic nby wczytywało plec f, od razu wykrywa plec m nawet jak wpisze sie bylejaka wartosc
+    if (plec=="m"&& wiek<18){                                    //nie wiem jak zrobic nby wczytywało plec f, od razu wykrywa plec m nawet jak wpisze sie bylejaka wartosc
         cout<<imie<<" "<<nazwisko<<" szanuj kobiety \n";
     }    
-    else if (plec=="m", wiek>=18){
+    else if (plec=="m"&& wiek>=18){
         string dzieci;
         cout<<imie<<" "<<nazwisko<<" masz dzieci? y/n: ";
         cin>>dzieci;
@@ -47,10 +47,10 @@ int main(){
                 cout<<"a to pech \n";
             }  
     }              
-    else if(plec=="f", wiek<18){
+    else if(plec=="f"&& wiek<18){
         cout<<imie<<" "<<nazwisko<<" uważaj na mężczyż \n";
     }
-    else if(plec=="f", wiek>=18){
+    else if(plec=="f"&& wiek>=18){
         string maz;
         cout<<imie<<" "<<nazwisko<<" czy masz meza? y/n : ";
         cin>>maz;
@@ -65,5 +65,9 @@ int main(){
                 cout<<"narka \n";
             }
         }    
+        else{
+            cout<<"narka \n";
+            }    
+           
         } 
 }
