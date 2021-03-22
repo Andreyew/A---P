@@ -21,7 +21,4 @@ else if (number<number1){
 else if (number==number1){
     cout<<number<<" jest równy "<<number1<<endl;
 }
-else{
-    cout<<"błedne dane"<<endl; //nie wiem jak sprawic by pojawił się komunikat po wpisaniu wartości innej niż int
-}
 }

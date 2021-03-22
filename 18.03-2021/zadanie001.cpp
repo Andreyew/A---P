@@ -19,10 +19,7 @@ int main(){
     else if (number>0){
         cout<<number<< " jest liczbą większą od zera \n";
     }
-    else if (number != number1){  //nie wiem jak sprawic by pojawił się komunikat po wpisaniu wartości innej niż int
-        cout<<"podana wartość jest błędna \n";
-    }
-
+ 
 }
 
 
